@@ -1,0 +1,2 @@
+C:\Users\Anchit Pandey\Source\Repos\DemoNodeJsApp\DemoNodeJsApp\obj\Debug\DemoNodeJsApp.njsprojAssemblyReference.cache
+C:\Users\Anchit Pandey\Source\Repos\DemoNodeJsApp\DemoNodeJsApp\bin\Microsoft.NodejsTools.WebRole.dll

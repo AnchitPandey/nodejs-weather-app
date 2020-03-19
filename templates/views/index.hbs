@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel = 'stylesheet' href = './css/styles.css'>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather !</p>
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="errorPara"></p>
+        <p id="dataPara"></p>
+
+
+    </div>
+    {{>footer}}
+    <script src="./jss/basic.js"></script>
+</body>
+</html>
+
