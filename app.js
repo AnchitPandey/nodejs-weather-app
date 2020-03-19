@@ -5,7 +5,9 @@ const request = require('request')
 const chalk = require('chalk');
 const express = require('express')
 const hbs = require('hbs')
-const utils = require ('./utils.js')
+const utils = require('./utils.js')
+
+const port = process.env.PORT || 3000
 
 const viewsPath = path.join (__filename, '../templates/views')
 const partialsPath = path.join(__filename, '../templates/partials')
@@ -124,6 +126,6 @@ app.get('/about', (req, res) => {
 
 
 
-app.listen(3000, () => {
-    console.log('Server is up and running on port 3000');
+app.listen(port, () => {
+    console.log('Server is up and running on port ' + port);
 })
